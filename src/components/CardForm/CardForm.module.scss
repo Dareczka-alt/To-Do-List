@@ -1,0 +1,17 @@
+.cardform {
+  margin: 0 auto;
+  padding: 10px;
+
+}
+
+
+@media (max-width: 767px) {
+  .cardform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+
+
+}
