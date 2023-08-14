@@ -6,7 +6,7 @@ import { getAllColumns } from '../../redux/store';
 
 
 const List = () => {
-  const columns = useSelector(getAllColumns);
+  const columns = useSelector(state => getAllColumns(state));
 
   return (
     <div className={styles.list}>
@@ -18,7 +18,6 @@ const List = () => {
         {columns.map(column =>
           <Column
             key={column.id}
-            id={column.id}
             {...column} />
         )}
       </section>
