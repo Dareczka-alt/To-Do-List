@@ -5,8 +5,8 @@ const NavBar = () => {
     <nav className={styles.navbar}>
       <a href="/"><span className="fa fa-bars"></span></a>
       <span className={styles.navtxt}><a href="/">Home</a>
-        <a href="about">About</a>
-        <a href="favourite">Favourite</a>
+        <a href="/about">About</a>
+        <a href="/favourite">Favourite</a>
       </span>
     </nav>
   );
