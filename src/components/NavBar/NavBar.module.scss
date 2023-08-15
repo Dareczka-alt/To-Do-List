@@ -10,22 +10,22 @@
 
 ;
 
-.navbar a {
+.navtxt {
+  margin-top: 10px;
   text-decoration: none;
   padding: 10px;
   color: $color-light;
   font-weight: bold;
   font-size: 16px;
-
-}
-
-;
-
-.navtxt {
-  margin-top: 10px;
 }
 
 .navbar a span {
   font-size: 24px;
+  text-decoration: none;
 
+}
+
+.linkActive {
+  color: $color-warning;
+  text-decoration: none;
 }
