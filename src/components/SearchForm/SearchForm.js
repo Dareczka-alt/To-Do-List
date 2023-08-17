@@ -9,12 +9,15 @@ const SearchForm = () => {
   const dispatch = useDispatch();
   const [searchString, setSearchString] = useState('');
 
+  useEffect(() => {
+    dispatch(updateSearchString(searchString));
+  }, [dispatch, searchString]);
+
 
 
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(updateSearchString(searchString));
-    setSearchString('');
 
   }
 

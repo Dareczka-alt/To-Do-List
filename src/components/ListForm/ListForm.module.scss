@@ -1,0 +1,27 @@
+.listform {
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.paramtitle {
+  margin: 0 10px;
+}
+
+@media (max-width: 767px) {
+  .columnform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .paramtitle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+
+}
