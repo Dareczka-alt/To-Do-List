@@ -1,7 +1,7 @@
 import Button from '../Button/Button';
 import TextInput from '../TextInput/TextInput';
 import { useDispatch } from 'react-redux';
-import { addList } from '../../redux/store';
+import { addList } from '../../redux/listsRedux';
 import styles from './ListForm.module.scss';
 import { useState } from 'react';
 

@@ -1,6 +1,6 @@
 import styles from './Card.module.scss';
 import clsx from 'clsx';
-import { toggleClass, getCardById } from '../../redux/store';
+import { toggleClass, getCardById } from '../../redux/cardsRedux';
 import { useDispatch, useSelector } from 'react-redux';
 
 
